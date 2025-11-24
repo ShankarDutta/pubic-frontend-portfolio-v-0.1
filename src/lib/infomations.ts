@@ -8,7 +8,7 @@ export const navItems: NavItemsType = [
 	{
 		id: 2,
 		label: "About",
-		urlid: { pathname: "/aboutme" },
+		urlid: { pathname: "/about" },
 	},
 	{
 		id: 3,
@@ -18,7 +18,7 @@ export const navItems: NavItemsType = [
 	{
 		id: 4,
 		label: "Contact",
-		urlid: { pathname: "contact" },
+		urlid: { pathname: "/contact" },
 	},
 ];
 
