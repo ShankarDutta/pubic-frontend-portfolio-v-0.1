@@ -1,5 +1,6 @@
 import { LightRays } from "@/components/magicui/light-rays";
 import { TypingAnimation } from "@/components/magicui/typing-animation";
+import SocialMediaIcons from "@/components/SocialMediaIcons";
 import { DownloadIcon } from "lucide-react";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -12,7 +13,9 @@ export const metadata: Metadata = {
 const page = () => {
 	return (
 		<section className="flex min-h-[80dvh] w-full flex-col items-center justify-center gap-10 pt-30 lg:flex-row-reverse lg:justify-start lg:gap-20">
+			{/* backgroun light effect  */}
 			<LightRays />
+
 			{/* image desktop right side */}
 			<Image
 				src={"/profile-picture.png"}
@@ -24,6 +27,7 @@ const page = () => {
 			/>
 
 			<div className="space-y-4 text-center lg:text-start">
+				{/* Typing animation  */}
 				<TypingAnimation
 					words={["Frontend Web Developer", "Full Stack Web Developer"]}
 					cursorStyle="line"
@@ -57,6 +61,9 @@ const page = () => {
 						</button>
 					</a>
 				</div>
+
+				{/* social media icon  */}
+				<SocialMediaIcons />
 			</div>
 		</section>
 	);
