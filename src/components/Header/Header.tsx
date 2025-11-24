@@ -1,4 +1,4 @@
-import ThemeToggleButton from "../CustomUi/ThemeToggleButton";
+import ThemeToggleButton from "../ThemeToggleButton";
 import DesktopNav from "./DesktopNav";
 import Logo from "./Logo";
 import MobileNav from "./MobileNav";
