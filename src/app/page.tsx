@@ -1,5 +1,4 @@
 import { LightRays } from "@/components/magicui/light-rays";
-import { TypingAnimation } from "@/components/magicui/typing-animation";
 import SocialMediaIcons from "@/components/SocialMediaIcons";
 import { DownloadIcon } from "lucide-react";
 import { Metadata } from "next";
@@ -28,12 +27,6 @@ const page = () => {
 
 			<div className="space-y-4 text-center lg:text-start">
 				{/* Typing animation  */}
-				<TypingAnimation
-					words={["Frontend Web Developer", "Full Stack Web Developer"]}
-					cursorStyle="line"
-					loop
-					className="text-2xl font-medium"
-				/>
 
 				{/* heading  */}
 				<h1 className="text-5xl font-bold tracking-wide">
