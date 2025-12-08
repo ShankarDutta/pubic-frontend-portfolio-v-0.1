@@ -1,4 +1,3 @@
-import { LightRays } from "@/components/magicui/light-rays";
 import SocialMediaIcons from "@/components/SocialMediaIcons";
 import TypingAnimation from "@/components/TypingAnimation";
 import { DownloadIcon } from "lucide-react";
@@ -13,9 +12,6 @@ export const metadata: Metadata = {
 const page = () => {
 	return (
 		<section className="flex min-h-[80dvh] w-full flex-col items-center justify-center gap-10 pt-30 lg:flex-row-reverse lg:justify-start lg:gap-20">
-			{/* backgroun light effect  */}
-			<LightRays />
-
 			{/* image desktop right side */}
 			<Image
 				src={"/profile-picture.png"}

@@ -1,4 +1,5 @@
 import Header from "@/components/Header/Header";
+import { LightRays } from "@/components/magicui/light-rays";
 import ThemeProvider from "@/components/Providers/ThemeProvider";
 import "./globals.css";
 
@@ -16,6 +17,9 @@ const RootLayout = ({ children }: Readonly<RootLayoutProps>) => {
 					attribute={"class"}
 					defaultTheme="dark"
 					enableSystem={false}>
+					{/* backgroun light effect  */}
+					<LightRays />
+
 					<Header />
 
 					<main className="mx-auto max-w-7xl px-6 py-3">{children}</main>
