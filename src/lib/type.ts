@@ -12,3 +12,12 @@ export type SocialMediaIconsType = {
 	link: string;
 	ariaName: string;
 }[];
+
+export type educationDetailType = {
+	id: string;
+	boardName: string;
+	year: string;
+	degree: string;
+	marks: string;
+	subject: string;
+}[];

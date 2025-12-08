@@ -1,7 +1,11 @@
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub, FiInstagram } from "react-icons/fi";
 import { ImFacebook } from "react-icons/im";
-import { NavItemsType, SocialMediaIconsType } from "./type";
+import {
+	educationDetailType,
+	NavItemsType,
+	SocialMediaIconsType,
+} from "./type";
 
 export const navItems: NavItemsType = [
 	{ id: 1, label: "Home", urlid: { pathname: "/" } },
@@ -46,5 +50,41 @@ export const socialMediaIcons: SocialMediaIconsType = [
 		icons: FaLinkedinIn,
 		link: "/", // add your linkedin account link
 		ariaName: "linkedin-icon",
+	},
+];
+
+export const educationDetails: educationDetailType = [
+	{
+		id: "item01",
+		boardName: "West Bengal Board of Secondary Education",
+		year: "2014-2015",
+		degree: "10th",
+		marks: "90%",
+		subject: "",
+	},
+	{
+		id: "item02",
+		boardName: "West Bengal Council of Higher Secondary Education",
+		year: "2015-2017",
+		degree: "10+2",
+		marks: "85%",
+		subject: "Arts",
+	},
+	{
+		id: "item03",
+		boardName: "Barinware University",
+		year: "2017-2020",
+		degree: "Undergraduate",
+		marks: "89%",
+		subject: "B.Tech in Computer Science Engineering",
+	},
+
+	{
+		id: "item04",
+		boardName: "Central Institute of Technology",
+		year: "2020-2023",
+		degree: "Fullstack Developer",
+		marks: "90%",
+		subject: "",
 	},
 ];
