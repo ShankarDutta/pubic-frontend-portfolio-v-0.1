@@ -3,6 +3,9 @@ import { FiGithub, FiInstagram } from "react-icons/fi";
 import { ImFacebook } from "react-icons/im";
 import {
 	educationDetailType,
+	FrontendProjectsDetailsType,
+	FullStackDetailsType,
+	JavaScriptProjectsDetailsType,
 	NavItemsType,
 	SocialMediaIconsType,
 } from "./type";
@@ -86,5 +89,68 @@ export const educationDetails: educationDetailType = [
 		degree: "Fullstack Developer",
 		marks: "90%",
 		subject: "",
+	},
+];
+
+export const javaScriptProjectsDetails: JavaScriptProjectsDetailsType = [
+	{
+		id: 1,
+		name: "",
+		url: "/",
+		githubRepoLink: "/",
+	},
+	{
+		id: 2,
+		name: "",
+		url: "/",
+		githubRepoLink: "/",
+	},
+	{
+		id: 3,
+		name: "",
+		url: "/",
+		githubRepoLink: "/",
+	},
+];
+
+export const frontendProjectsDetails: FrontendProjectsDetailsType = [
+	{
+		id: 1,
+		name: "",
+		url: "/",
+		githubRepoLink: "/",
+	},
+	{
+		id: 2,
+		name: "",
+		url: "/",
+		githubRepoLink: "/",
+	},
+	{
+		id: 3,
+		name: "",
+		url: "/",
+		githubRepoLink: "/",
+	},
+];
+
+export const FullStackDetails: FullStackDetailsType = [
+	{
+		id: 1,
+		name: "",
+		url: "/",
+		githubRepoLink: "/",
+	},
+	{
+		id: 2,
+		name: "",
+		url: "/",
+		githubRepoLink: "/",
+	},
+	{
+		id: 3,
+		name: "",
+		url: "/",
+		githubRepoLink: "/",
 	},
 ];

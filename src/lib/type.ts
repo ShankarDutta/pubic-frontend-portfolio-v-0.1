@@ -21,3 +21,24 @@ export type educationDetailType = {
 	marks: string;
 	subject: string;
 }[];
+
+export type JavaScriptProjectsDetailsType = {
+	id: number;
+	name: string;
+	url: string;
+	githubRepoLink: string;
+}[];
+
+export type FrontendProjectsDetailsType = {
+	id: number;
+	name: string;
+	url: string;
+	githubRepoLink: string;
+}[];
+
+export type FullStackDetailsType = {
+	id: number;
+	name: string;
+	url: string;
+	githubRepoLink: string;
+}[];
