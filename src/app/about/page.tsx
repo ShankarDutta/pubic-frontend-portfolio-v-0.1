@@ -37,13 +37,6 @@ const page = () => {
 
 					{/* content start */}
 
-					{/* <TabsContent
-            className=""
-            value="exprience"
-          >
-            Exprience
-          </TabsContent> */}
-
 					{/* education Tab */}
 
 					<TabsContent

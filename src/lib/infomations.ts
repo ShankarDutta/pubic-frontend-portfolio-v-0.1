@@ -3,10 +3,8 @@ import { FiGithub, FiInstagram } from "react-icons/fi";
 import { ImFacebook } from "react-icons/im";
 import {
 	educationDetailType,
-	FrontendProjectsDetailsType,
-	FullStackDetailsType,
-	JavaScriptProjectsDetailsType,
 	NavItemsType,
+	ProjectsDetailsType,
 	SocialMediaIconsType,
 } from "./type";
 
@@ -92,65 +90,83 @@ export const educationDetails: educationDetailType = [
 	},
 ];
 
-export const javaScriptProjectsDetails: JavaScriptProjectsDetailsType = [
+export const javaScriptProjectsDetails: ProjectsDetailsType = [
 	{
 		id: 1,
-		name: "",
+		name: "Emi Calculator",
+		description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam possimus soluta esse ab!`,
 		url: "/",
 		githubRepoLink: "/",
+		img: "/Jsprojects/project1.webp",
 	},
 	{
 		id: 2,
-		name: "",
+		name: "Digital Clock",
+		description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam possimus soluta esse ab!`,
 		url: "/",
 		githubRepoLink: "/",
+		img: "/Jsprojects/project2.png",
 	},
 	{
 		id: 3,
-		name: "",
+		name: "Qr Code Generator",
+		description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam possimus soluta esse ab!`,
 		url: "/",
 		githubRepoLink: "/",
+		img: "/Jsprojects/project3.png",
 	},
 ];
 
-export const frontendProjectsDetails: FrontendProjectsDetailsType = [
+export const frontendProjectsDetails: ProjectsDetailsType = [
 	{
 		id: 1,
-		name: "",
+		name: "Weather App",
+		description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam possimus soluta esse ab!`,
 		url: "/",
 		githubRepoLink: "/",
+		img: "/Frontendprojects/project1.webp",
 	},
 	{
 		id: 2,
-		name: "",
+		name: "Artificial Inteligence Landing Page",
+		description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam possimus soluta esse ab!`,
 		url: "/",
 		githubRepoLink: "/",
+		img: "/Frontendprojects/project2.png",
 	},
 	{
 		id: 3,
-		name: "",
+		name: "Personal Portfolio Website",
+		description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam possimus soluta esse ab!`,
 		url: "/",
 		githubRepoLink: "/",
+		img: "/Frontendprojects/project3.png",
 	},
 ];
 
-export const FullStackDetails: FullStackDetailsType = [
+export const FullStackDetails: ProjectsDetailsType = [
 	{
 		id: 1,
-		name: "",
+		name: "E-Commerce Website",
+		description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam possimus soluta esse ab!`,
 		url: "/",
 		githubRepoLink: "/",
+		img: "/Fullstackprojects/project1.jpg",
 	},
 	{
 		id: 2,
-		name: "",
+		name: "Url Shortern Website",
+		description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam possimus soluta esse ab!`,
 		url: "/",
 		githubRepoLink: "/",
+		img: "/Fullstackprojects/project2.png",
 	},
 	{
 		id: 3,
-		name: "",
+		name: "Movie Ticket Booking App",
+		description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam possimus soluta esse ab!`,
 		url: "/",
 		githubRepoLink: "/",
+		img: "/Fullstackprojects/project3.jpng",
 	},
 ];

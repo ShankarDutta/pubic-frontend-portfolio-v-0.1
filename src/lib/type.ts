@@ -22,23 +22,11 @@ export type educationDetailType = {
 	subject: string;
 }[];
 
-export type JavaScriptProjectsDetailsType = {
+export type ProjectsDetailsType = {
 	id: number;
 	name: string;
 	url: string;
 	githubRepoLink: string;
-}[];
-
-export type FrontendProjectsDetailsType = {
-	id: number;
-	name: string;
-	url: string;
-	githubRepoLink: string;
-}[];
-
-export type FullStackDetailsType = {
-	id: number;
-	name: string;
-	url: string;
-	githubRepoLink: string;
+	img: string;
+	description: string;
 }[];
