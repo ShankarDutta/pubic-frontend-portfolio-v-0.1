@@ -97,7 +97,7 @@ export const javaScriptProjectsDetails: ProjectsDetailsType = [
 		description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam possimus soluta esse ab!`,
 		url: "/",
 		githubRepoLink: "/",
-		img: "/Jsprojects/project1.webp",
+		img: "/Jsprojects/project1.png",
 	},
 	{
 		id: 2,
@@ -124,7 +124,7 @@ export const frontendProjectsDetails: ProjectsDetailsType = [
 		description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam possimus soluta esse ab!`,
 		url: "/",
 		githubRepoLink: "/",
-		img: "/Frontendprojects/project1.webp",
+		img: "/Frontendprojects/project-1.png",
 	},
 	{
 		id: 2,
@@ -132,15 +132,15 @@ export const frontendProjectsDetails: ProjectsDetailsType = [
 		description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam possimus soluta esse ab!`,
 		url: "/",
 		githubRepoLink: "/",
-		img: "/Frontendprojects/project2.png",
+		img: "/Frontendprojects/project-2.jpg",
 	},
 	{
 		id: 3,
-		name: "Personal Portfolio Website",
+		name: "Job Portal App",
 		description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam possimus soluta esse ab!`,
 		url: "/",
 		githubRepoLink: "/",
-		img: "/Frontendprojects/project3.png",
+		img: "/Frontendprojects/project-3.png",
 	},
 ];
 
@@ -151,7 +151,7 @@ export const FullStackDetails: ProjectsDetailsType = [
 		description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam possimus soluta esse ab!`,
 		url: "/",
 		githubRepoLink: "/",
-		img: "/Fullstackprojects/project1.jpg",
+		img: "/Fullstackprojects/project1.png",
 	},
 	{
 		id: 2,
@@ -167,6 +167,6 @@ export const FullStackDetails: ProjectsDetailsType = [
 		description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam possimus soluta esse ab!`,
 		url: "/",
 		githubRepoLink: "/",
-		img: "/Fullstackprojects/project3.jpng",
+		img: "/Fullstackprojects/project3.png",
 	},
 ];
