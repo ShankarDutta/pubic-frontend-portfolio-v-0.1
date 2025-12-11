@@ -40,12 +40,14 @@
 	--color-sidebar-border: var(--sidebar-border);
 	--color-sidebar-ring: var(--sidebar-ring);
 	--animate-blink-cursor: blink-cursor 1.2s step-end infinite;
-  @keyframes blink-cursor {
-  0%, 49% {
-    opacity: 1;
+	@keyframes blink-cursor {
+		0%,
+		49% {
+			opacity: 1;
 		}
-  50%, 100% {
-    opacity: 0;
+		50%,
+		100% {
+			opacity: 0;
 		}
 	}
 }
@@ -126,4 +128,16 @@
 	body {
 		@apply bg-background text-foreground;
 	}
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+	-moz-appearance: textfield;
 }
