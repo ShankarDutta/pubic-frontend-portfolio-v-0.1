@@ -3,6 +3,7 @@ import { ContactfFormSchemaType, formSchema } from "@/lib/schema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { LoaderIcon, SendIcon } from "lucide-react";
 import { Controller, useForm } from "react-hook-form";
+import { toast } from "react-toastify";
 import { Button } from "../shadcnui/button";
 import { Field, FieldError, FieldLabel } from "../shadcnui/field";
 import { Input } from "../shadcnui/input";
@@ -25,6 +26,7 @@ const ContactForm = () => {
 
 	const sendData = async (fData: ContactfFormSchemaType) => {
 		await new Promise<void>((r) => setTimeout(r, 1800));
+		toast.success("Form Successfully submitted !");
 		console.log(fData);
 		reset();
 	};
