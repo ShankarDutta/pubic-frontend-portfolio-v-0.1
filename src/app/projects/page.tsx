@@ -1,7 +1,5 @@
 "use client";
 
-import { useState } from "react";
-
 import FrontendProjectsTab from "@/components/Projects/FrontendProjectsTab";
 import FullStackProjectsTab from "@/components/Projects/FullStackProjectsTab";
 import JsProjectsTab from "@/components/Projects/JsProjectsTab";
@@ -15,9 +13,12 @@ import {
 } from "@/components/shadcnui/select";
 
 import { Tabs, TabsContent } from "@/components/shadcnui/tabs";
+import { projectCategoryAtom } from "@/lib/atom";
+import { useAtomValue, useSetAtom } from "jotai";
 
 const Page = () => {
-	const [value, setValue] = useState("js-project");
+	const value = useAtomValue(projectCategoryAtom);
+	const setValue = useSetAtom(projectCategoryAtom);
 
 	return (
 		<section className="space-y-10 py-24">
