@@ -1,5 +1,23 @@
+import ContactForm from "@/components/Contact/ContactForm";
+import Image from "next/image";
+
 const page = () => {
-	return <div>contact</div>;
+	return (
+		<section className="grid grid-cols-1 gap-6 pt-22 lg:grid-cols-2 lg:place-items-center">
+			<Image
+				src={"/contact-img.png"}
+				alt="contact-img"
+				height={600}
+				width={600}
+				className="mx-auto h-full w-auto lg:mx-0"
+			/>
+
+			<div className="w-auto space-y-3 px-6 lg:w-[450px]">
+				<h1 className="text-4xl font-semibold text-pink-400">Conatct Me</h1>
+				<ContactForm />
+			</div>
+		</section>
+	);
 };
 
 export default page;

@@ -18,7 +18,7 @@ const RootLayout = ({ children }: Readonly<RootLayoutProps>) => {
 					defaultTheme="dark"
 					enableSystem={false}>
 					{/* backgroun light effect  */}
-					<LightRays className="h-dvh" />
+					<LightRays className="h-full lg:h-dvh" />
 
 					<Header />
 

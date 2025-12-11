@@ -109,7 +109,7 @@ const ContactForm = () => {
 							id={field.name}
 							type="text"
 							aria-invalid={fieldState.invalid}
-							placeholder="Share Your Thoughts with Me "
+							placeholder="Share Your Thoughts with Me ...."
 							autoComplete="off"
 							className="pt-4 pb-24"
 						/>
@@ -120,7 +120,7 @@ const ContactForm = () => {
 			/>
 
 			<Button
-				className="w-full"
+				className="w-full cursor-pointer"
 				disabled={isSubmitting}>
 				{isSubmitting ? (
 					<>
