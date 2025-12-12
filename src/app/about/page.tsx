@@ -11,7 +11,7 @@ import {
 const page = () => {
 	return (
 		<>
-			<section className="pt-24">
+			<section className="pt-20 pb-6 lg:pt-[94px]">
 				<Tabs
 					defaultValue="education"
 					className="flex flex-col gap-10 lg:flex-row lg:gap-20">
@@ -48,13 +48,13 @@ const page = () => {
 					{/* Skills Tab */}
 
 					<TabsContent
-						className="font-jetbrains text-center lg:text-start"
+						className="font-jetbrains pb-[34px] text-center lg:text-start"
 						value="skills">
 						<SkillsTab />
 					</TabsContent>
 
 					<TabsContent
-						className="font-jetbrains text-center lg:text-start"
+						className="font-jetbrains pb-[74px] text-center lg:text-start"
 						value="about-me">
 						<AboutTab />
 					</TabsContent>

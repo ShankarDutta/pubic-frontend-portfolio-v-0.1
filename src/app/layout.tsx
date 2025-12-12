@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import { LightRays } from "@/components/magicui/light-rays";
 import ThemeProvider from "@/components/Providers/ThemeProvider";
@@ -23,6 +24,8 @@ const RootLayout = ({ children }: Readonly<RootLayoutProps>) => {
 					<Header />
 
 					<main className="mx-auto max-w-7xl px-6 py-3">{children}</main>
+
+					<Footer />
 				</ThemeProvider>
 			</body>
 		</html>
