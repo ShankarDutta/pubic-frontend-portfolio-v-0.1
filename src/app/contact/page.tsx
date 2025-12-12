@@ -3,12 +3,13 @@ import Image from "next/image";
 
 const page = () => {
 	return (
-		<section className="grid grid-cols-1 gap-6 pt-22 lg:grid-cols-2 lg:place-items-center">
+		<section className="grid grid-cols-1 gap-6 pt-[94px] lg:grid-cols-2 lg:place-items-center">
 			<Image
 				src={"/contact-img.png"}
 				alt="contact-img"
 				height={600}
 				width={600}
+				loading="eager"
 				className="mx-auto h-full w-auto lg:mx-0"
 			/>
 

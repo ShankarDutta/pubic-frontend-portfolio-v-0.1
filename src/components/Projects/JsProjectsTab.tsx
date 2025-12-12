@@ -21,6 +21,7 @@ const JsProjectsTab = () => {
 								alt={item.name}
 								height={600}
 								width={600}
+								loading="eager"
 								className="h-auto w-full rounded-2xl lg:h-[200px]"
 							/>
 						</CardHeader>

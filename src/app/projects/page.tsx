@@ -21,7 +21,7 @@ const Page = () => {
 	const setValue = useSetAtom(projectCategoryAtom);
 
 	return (
-		<section className="space-y-10 py-24">
+		<section className="space-y-10 pt-24 pb-20">
 			<div className="flex justify-between">
 				<h1 className="text-2xl font-semibold">My Projects</h1>
 
@@ -47,7 +47,7 @@ const Page = () => {
 				onValueChange={setValue}
 				className="w-full">
 				<TabsContent value="js-project">
-					<div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+					<div className="grid grid-cols-1 gap-4 pb-5 md:grid-cols-2 lg:grid-cols-3">
 						<JsProjectsTab />
 					</div>
 				</TabsContent>

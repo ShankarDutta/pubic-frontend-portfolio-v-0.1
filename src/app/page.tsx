@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 const page = () => {
 	return (
-		<section className="flex min-h-[80dvh] w-full flex-col items-center justify-center gap-10 pt-30 lg:flex-row-reverse lg:justify-start lg:gap-20">
+		<section className="flex min-h-[80dvh] w-full flex-col items-center justify-center gap-10 py-0 pt-20 pb-6 lg:flex-row-reverse lg:justify-start lg:gap-20 lg:py-[146px]">
 			{/* image desktop right side */}
 			<Image
 				src={"/profile-picture.png"}
