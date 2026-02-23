@@ -21,7 +21,7 @@ const Page = () => {
 	const setValue = useSetAtom(projectCategoryAtom);
 
 	return (
-		<section className="space-y-10 pt-24 pb-20">
+		<section className="flex flex-col justify-center gap-5 pt-20 lg:h-[95dvh] lg:pt-0">
 			<div className="flex justify-between">
 				<h1 className="text-2xl font-semibold">My Projects</h1>
 
