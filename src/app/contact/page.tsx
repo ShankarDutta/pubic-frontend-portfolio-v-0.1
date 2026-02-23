@@ -13,7 +13,7 @@ const page = () => {
 				className="mx-auto h-full w-auto lg:mx-0"
 			/>
 
-			<div className="w-auto space-y-3 px-6 lg:w-[450px]">
+			<div className="w-auto space-y-3 px-6 pb-12 lg:w-[450px] lg:pb-0">
 				<h1 className="text-4xl font-semibold text-pink-400">Conatct Me</h1>
 				<ContactForm />
 			</div>
