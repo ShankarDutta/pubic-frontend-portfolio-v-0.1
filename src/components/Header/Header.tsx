@@ -16,7 +16,7 @@ const Header = () => {
 				</span>
 
 				<nav
-					className="hidden items-center gap-4 md:flex"
+					className="hidden items-center gap-8 md:flex"
 					aria-label="Desktop-Nav-Items">
 					<DesktopNav />
 					<ThemeToggleButton />

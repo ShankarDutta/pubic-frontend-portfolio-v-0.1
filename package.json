@@ -61,7 +61,7 @@
 		"node": "22.x",
 		"npm": "11.x"
 	},
-	"author": "Saikat Sardar",
+	"author": "Shankar Dutta",
 	"license": "MIT",
-	"homepage": "https://github.com/MrSaikatS/nextjs-starter-frontend#readme"
+	"homepage": "https://github.com/ShankarDutta/pubic-frontend-portfolio-v-0.1"
 }
